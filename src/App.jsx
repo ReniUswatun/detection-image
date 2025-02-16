@@ -1,13 +1,22 @@
 import "./App.css";
-import Classifier from "./components/Classifier";
+// import { useState } from "react";
+import ClassManager from "./components/ClassManager";
+// import Camera from "./components/Camera";
+// import Classifier from "./components/Classifier";
 
 function App() {
+  // const { classes, setClasses } = useState(0);
   return (
     <>
       <div>
-        <h1>Rock Paper Scissors Classification</h1>
+        <div>
+          <h1>Object Detection</h1>
+        </div>
+        <div>
+          <ClassManager />
+        </div>
         {/* <Camera /> */}
-        <Classifier />
+        {/* <Classifier /> */}
       </div>
     </>
   );
